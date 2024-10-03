@@ -27,5 +27,8 @@
     - run the `lru_cache.py` and see the difference of using cache and not using cache
     - Time with lru_cache: *0.0022 seconds*
     - Time without lru_cache: *1.6532 seconds*
-    
+
 3. Class Based Decorator -> logging execution time
+    - `time_exec_logger.py`
+    - loggs the execution time of each function that is wrapped with NamedLogger
+    - At the end prints a call graph mentioning sequence of ops and time taken by each call
