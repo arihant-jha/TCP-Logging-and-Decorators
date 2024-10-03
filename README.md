@@ -24,4 +24,8 @@
     - I push logs to bigquery, have error call reporting and everything. It's great.
 
 2. Parametrized decorator - lru_cache(num) -> num is the number of calls I want to cache
+    - run the `lru_cache.py` and see the difference of using cache and not using cache
+    - Time with lru_cache: *0.0022 seconds*
+    - Time without lru_cache: *1.6532 seconds*
+    
 3. Class Based Decorator -> logging execution time
