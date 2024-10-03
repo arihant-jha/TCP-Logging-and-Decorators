@@ -19,6 +19,9 @@
 3 Levels of decorators in Pythonic Way
 
 1. Logging function call with args, kwargs
+    - `args_logger.py`
+    - fun fact I have been using an implementation of this kind of wrapper in my apis, it's amazing!!
+    - I push logs to bigquery, have error call reporting and everything. It's great.
 
 2. Parametrized decorator - lru_cache(num) -> num is the number of calls I want to cache
 3. Class Based Decorator -> logging execution time
