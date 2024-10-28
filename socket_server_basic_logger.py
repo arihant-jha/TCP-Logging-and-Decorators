@@ -23,7 +23,7 @@ def dice_response(client_socket: socket.socket):
 
 def main_2() -> None:
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server.bind(("localhost", 2401))
+    server.bind(("localhost", 9999))
     server.listen(1)
     with contextlib.closing(server):
         while True:

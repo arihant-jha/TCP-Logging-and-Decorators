@@ -13,6 +13,7 @@
 
 3. Basic LoggingWrapper
     - `socket_server_basic_logger.py`
+    - here we provide a similar interface to `socket.socket` which has `.send` and `.recv` methods implemented
     - `client_socket ----> LogSocket (logs the data) ----> Original socket ----> Network`
 
 ---
